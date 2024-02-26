@@ -19,7 +19,7 @@ export default function ThanksMessage({
   };
 
   return (
-    <div className="messageContainer">
+    <div className="messageContainer">     
       <img src={iconSuccess} alt="Icon Success" />
       <h1 className="thanks">Thanks for subscribing!</h1>
       <p className="paragraph">

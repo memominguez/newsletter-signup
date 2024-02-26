@@ -5,11 +5,7 @@ import StayUpdated from "./pages/StayUpdated";
 import ThanksMessage from "./pages/ThanksMessage";
 import NoPage from "./pages/NoPage";
 
-function App() {
-
-  // Useful info fron video tutorials:
-  // https://www.youtube.com/watch?v=TWz4TjSssbg
-  // https://www.youtube.com/watch?v=tIdNeoHniEY
+function App() { 
 
   const [email, setEmail] = useState("");
   const [isActive, setIsActive] = useState(false);
@@ -17,16 +13,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <StayUpdated
-              email={email}
-              setEmail={setEmail}
-              setIsActive={setIsActive}
-            />
-          }
-        />
         <Route
           path="/thanks"
           element={
@@ -38,7 +24,19 @@ function App() {
             />
           }
         />
-        <Route path="*" element={<NoPage />}/>
+
+        <Route
+          path="/"
+          element={
+            <StayUpdated
+              email={email}
+              setEmail={setEmail}
+              setIsActive={setIsActive}
+            />
+          }
+        />
+
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   );
