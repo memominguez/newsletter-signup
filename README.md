@@ -37,7 +37,8 @@ Users should be able to:
 
 
 ### Links
-Pending
+- Solution URL: [Github repository](https://github.com/memominguez/newsletter-signup)
+- Live Site URL: [Github page](https://frontend-mentor-news-signup.netlify.app)
 
 ## My process
 
@@ -50,6 +51,8 @@ Pending
 
 
 ### What I learned
+
+Using ul / li tags with image list style resulted in lack of flexibility. Unable to modify marker image alignment and size. So individual 'div' blocks with 'p' were used instead.
 
 Developed an email input form validation method, testing against a sample regEx code. "No valid" message is reset automatically to "false" by using the onFocus method.
 
@@ -73,7 +76,7 @@ input.invalid {
 }
 ```
 
-- Input form validation. Two state variables are set for using in conditional rendering.
+- Input form validation. Two state variables are set for using in conditional rendering. Then, the success message is shown after submitting the form.
 ```js
 const handleSubmit = (e) => {
     e.preventDefault();
@@ -100,7 +103,7 @@ The routes definition in this small application is a simple case.
 
 ### Useful resources
 
-Some ideas are taken from a couple of video tutorials:
+Some ideas are taken from a couple of youtube video tutorials:
 
 - [Form validation example](https://www.youtube.com/watch?v=tIdNeoHniEY) - A special feature is the use of onFocus to de-activate the "no valid" messages.
 - [A way to set routes](https://www.youtube.com/watch?v=TWz4TjSssbg) - Good example for a small application.
@@ -115,4 +118,5 @@ Some ideas are taken from a couple of video tutorials:
 
 ## Acknowledgments
 
-Thanks to all those who share their knowledge, free of charge, through video tutorials. 
+Thanks to all those who share their knowledge, free of charge, through video tutorials in the youtube platform.
+ 
