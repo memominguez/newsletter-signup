@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+ --primary:  hsl(4, 100%, 67%);
+ --dark-slate-grey: hsl(234, 29%, 20%);
+ --charcoal-grey:  hsl(235, 18%, 26%);
+ --grey: hsl(231, 7%, 60%);
+ --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--charcoal-grey); 
+  margin: 0;   
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../src/assets/fonts/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../src/assets/fonts/Roboto-Bold.ttf);
+}
+/* 
+p {
+  font-size: 16px;
+} */
