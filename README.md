@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [Github repository](https://github.com/memominguez/newsletter-signup)
-- Live Site URL: [Github page](https://frontend-mentor-news-signup.netlify.app)
+- Live Site URL: [Netlify hosting](https://frontend-mentor-news-signup.netlify.app)
 
 ## My process
 
