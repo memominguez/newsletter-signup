@@ -28,7 +28,8 @@ export default function ThanksMessage({
         it and click the button inside to confirm your subscription.
       </p>
       <button
-        className={isActive ? "messagebtn active" : "messagebtn"}
+        className="messagebtn"
+        // className={isActive ? "messagebtn active" : "messagebtn"}
         onClick={handleClick}
       >
         Dismiss message

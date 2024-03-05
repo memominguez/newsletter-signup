@@ -88,6 +88,13 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: var(--white);
+  box-shadow: 5px 5px 20px rgb(255, 98, 87);
+}
+
 .right {
   width: 46%;
   padding: 1rem;
