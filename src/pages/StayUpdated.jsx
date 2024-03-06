@@ -28,12 +28,12 @@ export default function StayUpdated({email, setEmail, setIsActive}) {
 
   return (
     <div className="layout">
-      <div className="container">
-        <div className="left">
+      <main className="container">
+        <section className="left">
           <h1>Stay updated!</h1>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
 
-          <div className="listGroup">
+          <article className="listGroup">
             <div className="listItem">
               <img src={iconList} alt="list icon" className="listIcon" />
               <p>Product discovery and building what matters</p>
@@ -48,7 +48,7 @@ export default function StayUpdated({email, setEmail, setIsActive}) {
               <img src={iconList} alt="list icon" className="listIcon" />
               <p>And much more!</p>
             </div>
-          </div>
+          </article>
 
           <form onSubmit={handleSubmit}>
             <div className="labelBox">
@@ -65,12 +65,13 @@ export default function StayUpdated({email, setEmail, setIsActive}) {
             />
             <button type="submit">Subscribe to monthly newsletter</button>
           </form>
-        </div>
-        <div className="right">
+        </section>
+
+        <section className="right">
           <img src={signupDesktop} alt="Desktop" className="desktopImg"/>
           <img src={signupMobile} alt="Mobile" className="mobileImg" />
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }
